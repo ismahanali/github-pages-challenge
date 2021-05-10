@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Qanelas;
+  src: url(./fonts/Qanelas-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Qanelas-light;
+  src: url(./fonts/Qanelas-Light.otf);
+}
+@font-face {
+  font-family: Qanelas-medium;
+  src: url(./fonts/Qanelas-Medium.otf);
+}
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	background: blanchedalmond;
+	color: #ffffff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-hero {
+  background-color: #DDDBEB;
+  height: 100vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first-page-contents {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  height: 84%;
+  justify-content: space-evenly;
+}
+
+.first-page-contents h1 {
+  font-family: 'Qanelas';
+  font-size: 11vw;
+  margin-bottom: 0;
+  margin-top: 2%;
+  margin: 0 auto;
+  -webkit-text-stroke: 3px #8E88BF;
+  -webkit-text-fill-color: transparent;
+}
+.first-page-contents p {
+  color: #B03535;
+  font-family: 'Qanelas-light';
+  font-size: 32px;
+  text-align: center;
+}
+.first-page-contents button {
+  width: 200px;
+  align-content: center;
+  margin: 0 auto;
+  height: 300px;
+  height: 64px;
+  background-color: #8E88BF;
+  color: #DDDBEB;
+  border: none;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: 'Qanelas';
+}
+.first-page-contents a {
+   text-decoration: none;
+   color: #DDDBEB;
+   margin: 0 auto;
+   cursor: pointer;
+}
+/* Second Page */
+.second-page {
+  border: 10px solid #8E88BF;
+  background-color: #DDDBEB;
+  height: 100vh;
+}
+
+.movie-directions {
+  display: flex;
+
+  width: 80%;
+  margin: 0 auto;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 23%;
+  margin-top: 25px;
+}
+.large-number {
+  width: 20%;
+  text-align: center;
+
+}
+.movie-direction-text {
+  width: 50%;
+  font-family: 'Qanelas-medium';
+  font-size: 55px;
+  text-align: center;
+  color: #8E88BF;
 }
 
-.App-link {
-  color: #61dafb;
+
+.large-number p {
+  font-family: 'Qanelas';
+  -webkit-text-stroke: 1px #B03535;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-container {
+  width: 80%;
+
+  margin: 0 auto;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+.movie-container {
+    display: flex;
+    overflow-x: scroll;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.search-input {
+    height: 41px;
+    width: 316px;
+    opacity: 0.5;
+}
+.third-page {
+  background-color: #DDDBEB;
+  height: 100vh;
+
+}
+.movie-app {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  display: flex;
+  flex-direction: column;
+}
+.movie-app > .row {
+  overflow-x: scroll;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  height: 80vh;
+  margin-top: 20px;
+  margin: 0 auto;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+.search-bar {
+  flex-direction: column !important;
+  align-content: center;
+  height: 100% !important;
+  width: 50% !important;
+
+}
+.movie-options {
+  
+}
+.image-container {
+	position: relative;
+  padding: 10px;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	opacity: .8;
+}
+
+
+.image-container:hover .overlay {
+	opacity: 1;
+  width: 100px;
+  height: auto;
+}
+.image-container img {
+  width: 250px;
+}
+.overlay {
+  position: absolute;
+  background: #8E88BF;
+  font-family: 'Qanelas-Light';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  opacity: 0;
+  bottom: 2%;
+  left: 25%;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100px !important;
 }
