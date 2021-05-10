@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github-pages-challenge/static/css/main.47d66ca6.chunk.css",
+    "main.js": "/github-pages-challenge/static/js/main.8eb93010.chunk.js",
+    "main.js.map": "/github-pages-challenge/static/js/main.8eb93010.chunk.js.map",
+    "runtime-main.js": "/github-pages-challenge/static/js/runtime-main.aaedec06.js",
+    "runtime-main.js.map": "/github-pages-challenge/static/js/runtime-main.aaedec06.js.map",
+    "static/js/2.fd4ff221.chunk.js": "/github-pages-challenge/static/js/2.fd4ff221.chunk.js",
+    "static/js/2.fd4ff221.chunk.js.map": "/github-pages-challenge/static/js/2.fd4ff221.chunk.js.map",
+    "static/js/3.e2a8ffeb.chunk.js": "/github-pages-challenge/static/js/3.e2a8ffeb.chunk.js",
+    "static/js/3.e2a8ffeb.chunk.js.map": "/github-pages-challenge/static/js/3.e2a8ffeb.chunk.js.map",
+    "index.html": "/github-pages-challenge/index.html",
+    "static/css/main.47d66ca6.chunk.css.map": "/github-pages-challenge/static/css/main.47d66ca6.chunk.css.map",
+    "static/js/2.fd4ff221.chunk.js.LICENSE.txt": "/github-pages-challenge/static/js/2.fd4ff221.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/github-pages-challenge/static/media/Qanelas-Medium.bfedc288.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaedec06.js",
+    "static/js/2.fd4ff221.chunk.js",
+    "static/css/main.47d66ca6.chunk.css",
+    "static/js/main.8eb93010.chunk.js"
+  ]
+}
